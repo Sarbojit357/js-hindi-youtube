@@ -41,3 +41,27 @@ const myFunction = function(){
 console.log(myFunction);
 
 //Read  from here : https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//Stack (Primitive) 
+let  myYoutubename = "hitesh"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+//Heap (Non Primitive)
+
+let userOne ={
+    email : "user@google.com",
+    upi : "user@ybl",
+}
+
+let userTwo = userOne
+userTwo.email ="hitesh@google.com"
+userTwo.upi ="sarbojit@paytm"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+console.log(userOne.upi)
+console.log(userTwo.upi)
